@@ -52,6 +52,7 @@ graph TD
     APLB --> AppLayer
     AppLayer --> DBLB
     DBLB --> DatabaseLayer
+```
 
     %% East-West / Cross-Cluster Replication Traffic
     PrimaryCluster ==>|Replication Stream| ReplicaCluster
